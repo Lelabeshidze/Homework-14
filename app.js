@@ -1,7 +1,7 @@
 const myNumbers = [55,66,63,57,74]
 let sum = 0;
 for (let i = 0; i < myNumbers.length; i++) {
-    sum += myNumbers[i];
+    sum = sum + myNumbers[i];
 }
 console.log(sum);
 const person = [
@@ -12,9 +12,9 @@ const person = [
 ];
 console.log(person)
 console.log ('My name is',person[0].name,',My age is',person[0].age,',My address is',person[0].address);
-if (person[0].age > 19) {
-    console.log('I am adult');
+if (person[0].age < 19) {
+    console.log('I am teenager');
   } 
 else {
-    console.log('I am teenager');
+    console.log('I am adult');
   }
