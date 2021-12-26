@@ -7,6 +7,7 @@ console.log(sum);
 const person = [
     {name:'Lela', age:'22',address:'Tbilisi'}
 ];
+console.log(person)
 console.log ('My name is',person[0].name,',My age is',person[0].age,',My address is',person[0].address);
 if (person[0].age > 19) {
     console.log('I am adult');
