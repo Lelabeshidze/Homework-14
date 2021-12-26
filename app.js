@@ -5,7 +5,10 @@ for (let i = 0; i < myNumbers.length; i++) {
 }
 console.log(sum);
 const person = [
-    {name:'Lela', age:'22',address:'Tbilisi'}
+    {name:'Lela', age:'22',address:'Davitaia st'},
+    {name:'Sandro', age:'25', address:'Pekini ave'},
+    {name:'Lile',age:'18',address:'Kazbegi ave'}
+
 ];
 console.log(person)
 console.log ('My name is',person[0].name,',My age is',person[0].age,',My address is',person[0].address);
